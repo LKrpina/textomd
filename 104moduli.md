@@ -85,58 +85,58 @@ kroz standardnu instalaciju Pythona:
 
 -   **rad s tekstom**
 
-    -   `string`{.python} - znakovi definirani prema ASCII standardu i
+    -   `string` - znakovi definirani prema ASCII standardu i
         dodatne radnje s tekstom
 
-    -   `unicodedata`{.python} - UNICODE šifrarnik za kodiranje teksta
+    -   `unicodedata` - UNICODE šifrarnik za kodiranje teksta
 
-    -   `re`{.python} - regularni izrazi
+    -   `re` - regularni izrazi
 
 -   **rad s brojevima**
 
-    -   `math`{.python} - dodatne matematičke funkcije i konstante
+    -   `math` - dodatne matematičke funkcije i konstante
 
-    -   `statistics`{.python} - dodatne statističke funkcije
+    -   `statistics` - dodatne statističke funkcije
 
-    -   `random`{.python} - generacija slučajnih brojeva
+    -   `random` - generacija slučajnih brojeva
 
 -   **rad s vremenom**
 
-    -   `time`{.python} - očitanje vremena
+    -   `time` - očitanje vremena
 
-    -   `datetime`{.python} - vrste vrijednosti za datume kao i sate,
+    -   `datetime` - vrste vrijednosti za datume kao i sate,
         minute \...
 
 -   **rad s putanjama i datotekama**
 
-    -   `pathlib`{.python} - vrsta vrijednosti za putanje na disku
+    -   `pathlib` - vrsta vrijednosti za putanje na disku
 
-    -   `shutil`{.python} - radnje s datotekama, kao što su kopiranje,
+    -   `shutil` - radnje s datotekama, kao što su kopiranje,
         preimenovanje i brisanje
 
 -   **rad s podatkovnim datotekama**
 
-    -   `csv`{.python} - čitanje i pisanje razgraničenog teksta
+    -   `csv` - čitanje i pisanje razgraničenog teksta
 
-    -   `json`{.python} - čitanje i pisanje JSON datoteka
+    -   `json` - čitanje i pisanje JSON datoteka
 
 -   **rad s internetom i webom**
 
-    -   `email, smtplib, imaplib`{.python} - elektronička pošta
+    -   `email, smtplib, imaplib` - elektronička pošta
 
-    -   `html, xml`{.python} - rad s HTML-om i XML-om
+    -   `html, xml` - rad s HTML-om i XML-om
 
-    -   `urllib`{.python} - rad s URL-ovima, uključujući i dohvat
+    -   `urllib` - rad s URL-ovima, uključujući i dohvat
         podataka s weba
 
 -   **zapisivanje i komprimiranje podataka**
 
-    -   `pickle`{.python} - zapisivanje Python objekata na disk i
+    -   `pickle` - zapisivanje Python objekata na disk i
         usnimavanje istih
 
-    -   `sqlite3`{.python} - stvaranje SQLite relacijskih baza podataka
+    -   `sqlite3` - stvaranje SQLite relacijskih baza podataka
 
-    -   `zipfile`{.python} - rad sa zip komprimiranim datotekama
+    -   `zipfile` - rad sa zip komprimiranim datotekama
 
 Sa spomenutim modulima smo tek zagrebli površinu standardne knjižnice.
 Ipak, prikazali smo mnoge korisne module, a velik dio standardne
