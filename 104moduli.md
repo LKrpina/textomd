@@ -56,8 +56,7 @@ relevantno, ali ako redefiniramo varijablu `pi`, izgubiti ćemo
 vrijednost koju smo uvezli iz modula `math`. Ovaj način uvoza
 je koristan kada želimo koristiti samo jedan ili mali broj članova nekog
 modula jer možemo koristiti naziv člana modula direktno (na primjer
-`pi` radije nego u obliku `math.pi` (na primjer
-`math.pi`). Kao i kod uvoza cijelih modula, članove možemo
+`pi` radije nego u obliku `math.pi` (na primjer `math.pi`). Kao i kod uvoza cijelih modula, članove možemo
 preimenovati koristeći se riječi `as`.
 
 ``` python
