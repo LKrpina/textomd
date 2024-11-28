@@ -15,10 +15,10 @@ računalnom slengu, modul možemo shvatiti kao *plug-in*. Već smo upoznali
 jedan takav modul: `math`{.python}. Kako bi mogli početi koristiti
 modul, potrebno ga je \"uvesti\" u vlastiti kôd.
 
-::: python
+``` python
 Korištenje modula pomoću naredbe importlisting:moduli_import import math
 print(math.sqrt(2)) print(math.pi)
-:::
+```
 
 Rezultat koda gore je ispis korijena iz dva i pi konstante, ali to nije
 zašto ga ovdje prikazujemo. Linija `import math`{.python} govori Pythonu
