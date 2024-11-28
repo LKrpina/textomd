@@ -16,14 +16,15 @@ jedan takav modul: `math`. Kako bi mogli početi koristiti
 modul, potrebno ga je \"uvesti\" u vlastiti kôd.
 
 ``` python
-Korištenje modula pomoću naredbe importlisting:moduli_import import math
+Korištenje modula pomoću naredbe importlisting:
 print(math.sqrt(2)) print(math.pi)
 ```
 
 Rezultat koda gore je ispis korijena iz dva i pi konstante, ali to nije
 zašto ga ovdje prikazujemo. Linija `import math` govori Pythonu
 da uveze modul `math` koji je ostatku koda u toj datoteci
-dostupan kroz ime `math` i to ime se ponaša kao varijabla. Svi
+dostupan kroz ime `math i to ime se ponaša kao varijabla. Svi
+
 članovi tog modula (funkcije, vrste vrijednosti i konstante) dostupni su
 pisanjem nakon točke. Kao i kod metoda, točka označava članstvo odnosno
 članove modula koristimo pisanjem točke nakon imena modula kao gore u
@@ -43,7 +44,7 @@ postoji i mogućnost promjene naziva modula prilikom uvoza:
 Također, Python dozvoljava i uvoz samo jednog člana nekog modula.
 
 ``` python
-Uvoz jednog člana modulalisting:moduli_from
+Uvoz jednog člana modulalisting:
 from math import pi
 print(pi) 3.141592653589793 
 pi = 100 \
@@ -52,7 +53,7 @@ print(pi) 100
 
 Na ovaj način, ne uvozimo ime `math` već direktno ime
 `pi`. To znači da nam ime `math` u ostatku koda nije
-relevantno, ali ako redefiniramo varijablu `pi`{.python}, izgubiti ćemo
+relevantno, ali ako redefiniramo varijablu `pi`, izgubiti ćemo
 vrijednost koju smo uvezli iz modula `math`. Ovaj način uvoza
 je koristan kada želimo koristiti samo jedan ili mali broj članova nekog
 modula jer možemo koristiti naziv člana modula direktno (na primjer
@@ -61,7 +62,7 @@ modula jer možemo koristiti naziv člana modula direktno (na primjer
 preimenovati koristeći se riječi `as`.
 
 ``` python
-Uvoz jednog člana modula s preimenovanjemlisting:moduli_from_as 
+Uvoz jednog člana modula s preimenovanjemlisting: 
 from math import pi as x  print(x) 3.141592653589793
 ```
 
