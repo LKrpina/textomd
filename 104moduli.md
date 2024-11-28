@@ -24,6 +24,7 @@ Rezultat koda gore je ispis korijena iz dva i pi konstante, ali to nije
 zašto ga ovdje prikazujemo. Linija `import math` govori Pythonu
 da uveze modul `math` koji je ostatku koda u toj datoteci
 dostupan kroz ime `math i to ime se ponaša kao varijabla. Svi
+
 članovi tog modula (funkcije, vrste vrijednosti i konstante) dostupni su
 pisanjem nakon točke. Kao i kod metoda, točka označava članstvo odnosno
 članove modula koristimo pisanjem točke nakon imena modula kao gore u
