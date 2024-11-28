@@ -42,10 +42,13 @@ postoji i mogućnost promjene naziva modula prilikom uvoza:
 
 Također, Python dozvoljava i uvoz samo jednog člana nekog modula.
 
-::: python
-Uvoz jednog člana modulalisting:moduli_from \>\>\> from math import pi
-\>\>\> print(pi) 3.141592653589793 \>\>\> pi = 100 \>\>\> print(pi) 100
-:::
+``` python
+Uvoz jednog člana modulalisting:moduli_from 
+\>\>\> from math import pi
+\>\>\> print(pi) 3.141592653589793 
+\>\>\> pi = 100 \
+>\>\> print(pi) 100
+```
 
 Na ovaj način, ne uvozimo ime `math`{.python} već direktno ime
 `pi`{.python}. To znači da nam ime `math`{.python} u ostatku koda nije
@@ -57,10 +60,10 @@ modula jer možemo koristiti naziv člana modula direktno (na primjer
 `math.pi`{.python}). Kao i kod uvoza cijelih modula, članove možemo
 preimenovati koristeći se riječi `as`{.python}.
 
-::: python
+``` python
 Uvoz jednog člana modula s preimenovanjemlisting:moduli_from_as \>\>\>
 from math import pi as x \>\>\> print(x) 3.141592653589793
-:::
+```
 
 ## Standardna knjižnica
 
